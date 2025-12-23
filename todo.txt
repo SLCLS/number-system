@@ -1,0 +1,3 @@
+- Import to WORKSPACE (use export/WORKSPACE branch)
+- Phase 2: GUI Development (Qt Framework)
+- Rewrite documentation, create binary releases.
