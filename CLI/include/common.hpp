@@ -38,7 +38,7 @@ namespace computation
     // Calculator functions
     void basic();
     void advanced();
-    double arithmethic(double num1, double num2, string operation);
+    double arithmetic(double num1, double num2, string operation);
 }
 
 namespace utility
