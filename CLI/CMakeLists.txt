@@ -1,15 +1,16 @@
 cmake_minimum_required(VERSION 3.10)
 project(NumberSystemCLI)
 
-set(CMAKE_CSS_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include)
 
-Add_executable(NumberSystemCLI
+add_executable(NumberSystemCLI
     src/main.cpp
-    src/validator.cpp
-    src/navigation.cpp
-    src/computation.cpp
-    src/utility.cpp
-    src/logger.cpp
+    src/core/validator.cpp
+    src/core/navigation.cpp
+    src/core/computation.cpp
+    src/core/utility.cpp
+    src/utils/logger.cpp
 )

@@ -1,8 +1,4 @@
-#include "../include/logger.hpp"
-
-#include <iostream>
-
-using namespace std;
+#include "common.hpp"
 
 int main()
 {
