@@ -18,7 +18,7 @@ int main()
     string exit_option;                             // Exit option variable
     int conversion_case, calculator_case;           // Sub-menu switch variables 
     bool return_request = false;                    // Return request to main menu
-    string num1, num2, target_base, result;                 // Calculation variables
+    string num1, num2, target_base, result;         // Calculation variables
 
     num1 = ""; num2 = ""; target_base = ""; result = "";    // Reset variables upon start_main execution
 
