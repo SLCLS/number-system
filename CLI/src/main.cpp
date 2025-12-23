@@ -48,9 +48,10 @@ int main()
         break;
 
         default:    // Fail-safe default
-        cerr << "\nWARNING: An unexpected error occured.\n" << "Press any ket to restart the program...\n";
+        cerr << "\nWARNING: An unexpected error occured.\n" << "Press any key to restart the program...\n";
         system("PAUSE"); system("CLS");
-        break; // TODO: Check if i need to add goto start_main; in here.
+        goto start_main;
+        break;
     }
 
     // Sub-menu return request
@@ -65,6 +66,32 @@ int main()
     {
         system("CLS");
         navigation::conversion_handler(conversion_case, num1, target_base, result);
+        cout << "\nResult: " << result << "\n";
+    }
+    else if (option_case == 2)
+    {
+        system("CLS");
+        navigation::calculator_handler(calculator_case);
+    }
+
+    // Exit Prompt
+    cout << "\n***********************************************";
+    cout << "\n Enter 'B' to go back to Number System Menu...\n";
+    cout << " Enter any other key to return to Main Menu...";
+    cout << "\n***********************************************\n";
+    cout << "\nPlease choose your action: ";
+    cin >> exit_option;
+
+    if (exit_option == "B" || exit_option == "b")
+    {
+        system("CLS");
+        num1 = ""; num2 = ""; target_base = ""; result = "";
+        goto start_logic;
+    }
+    else
+    {
+        system("CLS");
+        goto start_main;
     }
 
     return 0;
