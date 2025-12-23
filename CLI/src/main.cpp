@@ -54,7 +54,7 @@ int main()
     if (return_request == true)
     {
         return_request = false;
-        goto start_logic;
+        goto start_main;
     }
 
     // Sub-menu Selection

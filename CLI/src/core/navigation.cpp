@@ -1,7 +1,7 @@
 #include "common.hpp"
 
 // Main Menu
-void::navigation_menu(string &menu_option, int &option_case)
+void navigation::menu(string &menu_option, int &option_case)
 {
     system("CLS");
     cout << "\n***********************************************\n" << "     NUMBER SYSTEM CONVERSION & CALCULATOR     ";
