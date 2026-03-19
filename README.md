@@ -43,10 +43,9 @@ This project began as a simple command-line tool and is currently in development
     ```
 
 ## 🗺 Roadmap
-- [ ] **Phase 2:** Graphical User Interface (GUI) implementation using Qt Framework.
+- [ ] **Phase 2:** Graphical User Interface (GUI) implementation using Qt Framework (under development).
 
 ## 🤩 Author
-[**SLCLS**](https://github.com/SLCLS) - A First-Year **Computer Science Student** at *FEU Institute of Technology*, **Junior Developer** at *Zenith Falcon Tech*.
+[**SLCLS**](https://github.com/SLCLS) - A First-Year **Computer Science Student** at *FEU Institute of Technology*.
 - **My Github:** [@SLCLS](https://github.com/SLCLS)
-- **LinkedIn:** [@slcls](https://www.linkedin.com/in/slcls/)
 - **See more projects:** [WORKSPACE](https://github.com/SLCLS/WORKSPACE)
